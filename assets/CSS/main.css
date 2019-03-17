@@ -1,0 +1,92 @@
+.container {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "navbar navbar navbar navbox "
+    "header header header header"
+    "card-1 card-2 card-3 card-4"
+    "card-5 card-6 card-7 card-8"
+    "footer footer footer footer";
+  }
+
+.navbar {
+  grid-area: navbar;
+  background-color: #5C9EAD;
+  color: #326273;
+  padding: 5px;
+}
+.navbox {
+  grid-area: navbox;
+  background-color: #5C9EAD;
+  color: #326273;
+  padding: 5px;
+  padding-left: 175px;
+}
+.header {
+  grid-area: header;
+  color: #326273;
+  background-color: #EEEEEE;
+  justify-content: center;
+  }
+  a {
+    color: #326273;
+  }
+  a:visited {
+    color: #FFFFFF;
+    color: #326273;
+  }
+.card {
+  font-family: helvetica;
+  background-color: #EEEEEE;
+  color: #326273;
+  font-size: 8px;
+  image-orientation: center;
+  padding: 2px;
+  border: 2px;
+  margin: 2px;
+}
+.card-1 {
+  grid-area: card-1;
+}
+.card-2 {
+  grid-area: card-2;
+}
+.card-3 {
+  grid-area: card-3;
+}
+.card-4 {
+  grid-area: card-4;
+}
+.card-5 {
+  grid-area: card-5;
+}
+.card-6 {
+  grid-area: card-6;
+}
+.card-7 {
+  grid-area: card-7;
+}
+.card-8 {
+  grid-area: card-8;
+}
+.footer {
+  grid-area: footer;
+  background-color: #5C9EAD;
+}
+.card-img {
+  width: 240px;
+  height: 160px;
+  padding: 2px;
+  border: 2px;
+  margin: 2px;
+  justify-content: center;
+}
+.card-header {
+  color: #759FBC;
+  justify-content: center;
+}
+.thumbnail {
+  width: 10px;
+  height: auto;
+}
